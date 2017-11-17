@@ -1,0 +1,84 @@
+1510920769a:1:{s:13:"proizvodi.htm";a:7:{s:8:"fileName";s:13:"proizvodi.htm";s:7:"content";s:2616:"[viewBag]
+title = "Proizvodi"
+url = "/proizvodi"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+meta_title = "proizvodi"
+==
+<div class="py-5 bg-light text-center categories">
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-md-12 mb-5">
+
+				<h1 class="text-primary display-4 mb-2">Proizvodi</h1>
+				<!--<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt-->
+				<!--ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut-->
+				<!--aliquip ex ea commodo consequat. Duis aute-->
+				<!--irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint-->
+				<!--occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>-->
+			</div>
+			<div class="category-wrapper">
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/1.1.jpg">
+					<a class="category-link" href="proizvodi/pp-r-cijevi"><div class="category-overlay"><h1 class="category-title text-light">PP-R cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/2.2.jpg">
+					<a class="category-link" href="proizvodi/hdpe-cijevi"><div class="category-overlay"><h1 class="category-title text-light">HDPE cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/4.1.jpg">
+					<a class="category-link" href="proizvodi/pvc-cijevi"><div class="category-overlay"><h1 class="category-title text-light">PVC cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="diagonal-bottom bg-info">
+	<br>
+</div>";s:5:"mtime";i:1509714789;s:6:"markup";s:2476:"<div class="py-5 bg-light text-center categories">
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-md-12 mb-5">
+
+				<h1 class="text-primary display-4 mb-2">Proizvodi</h1>
+				<!--<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt-->
+				<!--ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut-->
+				<!--aliquip ex ea commodo consequat. Duis aute-->
+				<!--irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint-->
+				<!--occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>-->
+			</div>
+			<div class="category-wrapper">
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/1.1.jpg">
+					<a class="category-link" href="proizvodi/pp-r-cijevi"><div class="category-overlay"><h1 class="category-title text-light">PP-R cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/2.2.jpg">
+					<a class="category-link" href="proizvodi/hdpe-cijevi"><div class="category-overlay"><h1 class="category-title text-light">HDPE cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/4.1.jpg">
+					<a class="category-link" href="proizvodi/pvc-cijevi"><div class="category-overlay"><h1 class="category-title text-light">PVC cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="diagonal-bottom bg-info">
+	<br>
+</div>";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:9:"Proizvodi";s:3:"url";s:10:"/proizvodi";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:10:"meta_title";s:9:"proizvodi";}s:12:"parsedMarkup";s:2476:"<div class="py-5 bg-light text-center categories">
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-md-12 mb-5">
+
+				<h1 class="text-primary display-4 mb-2">Proizvodi</h1>
+				<!--<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt-->
+				<!--ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut-->
+				<!--aliquip ex ea commodo consequat. Duis aute-->
+				<!--irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint-->
+				<!--occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>-->
+			</div>
+			<div class="category-wrapper">
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/1.1.jpg">
+					<a class="category-link" href="proizvodi/pp-r-cijevi"><div class="category-overlay"><h1 class="category-title text-light">PP-R cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/2.2.jpg">
+					<a class="category-link" href="proizvodi/hdpe-cijevi"><div class="category-overlay"><h1 class="category-title text-light">HDPE cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+				<div class="col-sm-10 col-md-5 col-lg-3 col-xl-auto my-3 category"><img class="img-fluid fr-fic fr-dii" src="/hadva/storage/app/media/uploaded-files/proizvodi/4.1.jpg">
+					<a class="category-link" href="proizvodi/pvc-cijevi"><div class="category-overlay"><h1 class="category-title text-light">PVC cijevi</h1><p class="category-description text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="diagonal-bottom bg-info">
+	<br>
+</div>";}}

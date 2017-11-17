@@ -1,0 +1,22 @@
+{% for category in categories %}
+{% set postCount = category.post_count %}
+{% set pageMetaTitle = this.page.meta_title %}
+{% set proizvodi = '/proizvodi'|app %}
+<li class="list-group-item" {% if category.slug== currentCategorySlug %}class="active" {% endif %}>
+    {# if ( pageMetaTitle == 'proizvod' ) #}
+    <a href="{{ proizvodi }}/{{ category.slug }}">{{ category.name }}</a>
+    {# endif #}
+    {% if postCount %}
+    <span class="badge">{{ postCount }}</span>
+    {% endif %}
+
+    {% if category.children %}
+    <ul>
+        {% partial __SELF__ ~ "::items"
+        categories=category.children
+        currentCategorySlug=currentCategorySlug
+        %}
+    </ul>
+    {% endif %}
+</li>
+{% endfor %}

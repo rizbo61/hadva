@@ -1,0 +1,59 @@
+{% set post = __SELF__.post %}
+
+<!--<div class="content">{{ post.content_html|raw }}</div>-->
+
+<!--{% if post.featured_images.count %}-->
+<!--<div class="featured-images text-center">-->
+<!--{% for image in post.featured_images %}-->
+<!--<p>-->
+<!--<img-->
+<!--data-src="{{ image.filename }}"-->
+<!--src="{{ image.path }}"-->
+<!--alt="{{ image.description }}"-->
+<!--style="max-width: 100%" />-->
+<!--</p>-->
+<!--{% endfor %}-->
+<!--</div>-->
+<!--{% endif %}-->
+
+<!--<p class="info">-->
+<!--Posted-->
+<!--{% if post.categories.count %} in-->
+<!--{% for category in post.categories %}-->
+<!--<a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}-->
+<!--{% endfor %}-->
+<!--{% endif %}-->
+<!--on {{ post.published_at|date('M d, Y') }}-->
+<!--</p>-->
+<div class="py-5 bg-light text-left products">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-12 mb-2 list-wrapper">
+                <h1 class="text-primary display-4 mb-1">{{ post.title }}</h1>
+                {% component 'blogCategories' %}
+            </div>
+            <div class="category-wrapper">
+                <div class="col-12 my-3 p-5 category product">
+                    <div class="col-sm-12 col-md-6 col-lg-5 product-image">
+                        {% for image in post.featured_images|slice(0,1) %}
+                        <a href="{{ image.path }}" data-lightbox="1.1.jpg" data-title="{{ post.title }}">
+                            <img class="img-fluid" src="{{ image.path }}">
+                        </a>
+                        {% endfor %}
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-7 product-info">
+                        <div class="row product-description">
+                            <h3 class="text-primary text-uppercase pb-3">Opis proizvoda</h3>
+                            <p class="text-dark pb-3">{{ post.excerpt }}
+                            </p>
+                        </div>
+                        <div class="row product-table table-responsive">
+                            {{ post.content_html|raw }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

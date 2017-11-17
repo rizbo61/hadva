@@ -1,0 +1,17 @@
+title = "Proizvod"
+url = "/proizvodi/:category/proizvod/:slug"
+layout = "default"
+meta_title = "proizvod"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "pp-r-cijevi"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/category"
+==
+{% component 'blogPost' %}
+<div class="diagonal-bottom bg-info"></div>

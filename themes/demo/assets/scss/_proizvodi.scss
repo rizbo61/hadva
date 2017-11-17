@@ -1,0 +1,16 @@
+body[data-title="proizvodi"] {
+	.navbar-main {
+		background-image: linear-gradient(#165cde, #7be7f4 686px);
+	}
+
+	.navbar-scrolled {
+		background-image: none;
+	}
+
+	.categories {
+		padding-top: 168px !important;
+		padding-bottom: 220px !important;
+		background-color: white !important;
+	}
+}
+

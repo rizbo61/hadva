@@ -1,0 +1,68 @@
+body[data-title="kategorija"] {
+  .navbar-main {
+    background-image: linear-gradient(#165cde, #7be7f4 686px);
+  }
+
+  .navbar-scrolled {
+    background-image: none;
+  }
+  
+  .category-wrapper {
+	  display: flex;
+	  justify-content: space-between;
+	  flex-wrap: wrap;
+	  width: 100%;
+	}
+	
+	.category {
+		transition: all 0.3s ease-in-out;
+  
+	  &:hover {
+	  	transform: scale(1.1);
+	  }
+	}
+	
+	h1 {
+		margin-bottom: 5rem !important;
+	}
+	
+  .products {
+    padding-top: 168px !important;
+    padding-bottom: 220px !important;
+    background-color: white !important;
+  }
+  
+  .card {
+  	height: 100%;
+  	
+  	.card-main {
+	  	height: 100%;
+	    padding: 15px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+  	}
+  	
+  	.image-wrapper {
+  		height: 260px !important;
+  	}
+  	
+  	img {
+  		height: 100% !important;
+  		object-fit: cover;
+  	}
+  }
+  
+  
+
+  .category-title {
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+	 .category-wrapper {
+		  justify-content: center !important;
+		}
+}

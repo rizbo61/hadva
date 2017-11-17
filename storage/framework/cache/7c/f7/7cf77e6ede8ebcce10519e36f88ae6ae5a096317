@@ -1,0 +1,16 @@
+1510920772a:1:{s:14:"pvc-cijevi.htm";a:11:{s:8:"fileName";s:14:"pvc-cijevi.htm";s:7:"content";s:370:"title = "PVC cijevi"
+url = "/proizvodi/pvc-cijevi"
+layout = "default"
+meta_title = "kategorija"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "pvc-cijevi"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "pvc-cijevi"
+postPage = "pvc-cijevi/proizvod"
+==
+{% component 'blogPosts' %}";s:5:"mtime";i:1510225481;s:6:"markup";s:27:"{% component 'blogPosts' %}";s:4:"code";N;s:5:"title";s:10:"PVC cijevi";s:3:"url";s:21:"/proizvodi/pvc-cijevi";s:6:"layout";s:7:"default";s:10:"meta_title";s:10:"kategorija";s:9:"is_hidden";s:1:"0";s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:10:"pvc-cijevi";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:10:"pvc-cijevi";s:8:"postPage";s:19:"pvc-cijevi/proizvod";}}}
