@@ -34,4 +34,12 @@
   'RainLab\\Pages\\Components\\StaticBreadcrumbs' => 'plugins\\rainlab\\pages\\components\\StaticBreadcrumbs.php',
   'janvince\\smallcontactform\\Controllers\\messages' => 'plugins\\janvince\\smallcontactform\\controllers\\messages.php',
   'JanVince\\SmallContactForm\\Models\\Message' => 'plugins\\janvince\\smallcontactform\\models\\Message.php',
+  'backend\\Controllers\\auth' => 'modules\\backend\\controllers\\auth.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
+  'backend\\Controllers\\users' => 'modules\\backend\\controllers\\users.php',
+  'backend\\Controllers\\preferences' => 'modules\\backend\\controllers\\preferences.php',
+  'system\\Controllers\\eventlogs' => 'modules\\system\\controllers\\eventlogs.php',
+  'system\\Controllers\\mailbrandsettings' => 'modules\\system\\controllers\\mailbrandsettings.php',
+  'system\\Controllers\\mailtemplates' => 'modules\\system\\controllers\\mailtemplates.php',
+  'backend\\Controllers\\index' => 'modules\\backend\\controllers\\index.php',
 );
